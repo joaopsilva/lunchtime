@@ -1,0 +1,36 @@
+{
+	"name": "lunchtime",
+	"version": "1.0.0",
+	"description": "downloads and displays the menu of CERN's restaurant in the command-line",
+	"repository": {
+    	"type": "git",
+    	"url": "git://github.com/joaopsilva/lunchtime.git"
+  	},
+	"author": {
+		"name": "João Silva",
+		"email": "joao.pcg.silva@gmail.com",
+		"url": "https://github.com/joaopsilva"
+	},
+	"keywords": [
+		"CERN",
+		"Restaurant",
+		"R1",
+		"Menu"
+	],
+	"scripts": {
+		"start": "node lunchtime.js"
+	},
+	"dependencies": {
+		"ascii-table": "^0.0.9",
+		"async": "^1.5.2",
+		"charset": "^1.0.0",
+		"cheerio": "^0.20.0",
+		"htmltidy": "^0.0.6",
+		"iconv": "^2.2.0",
+		"jschardet": "^1.4.1",
+		"moment": "^2.13.0",
+		"request": "^2.72.0",
+		"tough-cookie": "^2.2.2"
+	},
+	"license": "MIT"
+}
